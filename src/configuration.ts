@@ -9,6 +9,7 @@ export default class Configuration {
 	}
 	
 	static fromUserFile() {
+		// TODO: read .vimrc or a similar file.
 		return new Configuration(KeyboardLayout.fromUserConfiguration());
 	}
 }
